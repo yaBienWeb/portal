@@ -162,17 +162,21 @@ body {
     height: 4rem;
     width: 4rem;
   }
-
-  .social-icons ul > li > .yt:hover {
-    background-color: #c4b82e;
+ .social-icons ul > li > .welc {
+    background-color: #051121;
+  }
+  
+  .social-icons ul > li > .welc:hover {
+    background-color: #216FD3;
   }
 
-  .social-icons ul > li > .serv:hover {
-    background-color: #c4b82e;
+
+  .social-icons ul > li > .blogg:hover {
+    background-color: #F5711C;
   }
 
   .social-icons ul > li > a:hover {
-    background-color: #c4b82e;
+    background-color: #E6D93A;
   }
 }
 
