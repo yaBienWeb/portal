@@ -19,12 +19,23 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
     <!-- Custom styles for this template -->
-    <link href="css/landing-page.css" rel="stylesheet">
+    <link href="css/landing-page.css" rel="stylesheet">    <link href="css/load.css" rel="stylesheet">
     <link rel="icon" type="image/png" href="img/L.png">
   </head>
 
   <body>
+    <div id="contenedorC">
+    <div id="carga">
+    </div>  
+  </div>
 
+  <script>
+    window.onload = function(){
+      var contenedor = document.getElementById('contenedorC');
+      contenedor.style.visibility = 'hidden';
+      contenedor.style.opacity = '0';
+    }
+  </script>
     <!-- Navigation -->
     <nav class="navbar navbar-light bg-light static-top">
       <div class="container">
@@ -189,7 +200,7 @@
           <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
             <ul class="list-inline mb-0">
               <li class="list-inline-item mr-3" title="facebook.com/yabien" >
-                <a href="https://www.facebook.com/yaBienOficial/" target="_blank">
+                <a href="https://www.facebook.com/" target="_blank">
                   <i class="fa fa-facebook fa-2x fa-fw"></i>
                 </a>
               </li>
