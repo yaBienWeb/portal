@@ -6,7 +6,7 @@
 	box-sizing: border-box;
 }
 #contenedorC{
-	background-color: rgba(0, 0, 10, 0.4);
+	background-color: rgba(0, 0, 10, 0.9);
 	height: 100%;
 	width: 100%;
 	position: fixed;
