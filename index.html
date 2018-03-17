@@ -20,11 +20,25 @@
 
     <!-- Custom styles for this template -->
     <link href="css/coming-soon.css" rel="stylesheet">
+    <link href="css/load.css" rel="stylesheet">
     <link rel="icon" type="image/png" href="img/L.png">
 
   </head>
 
   <body>
+
+    <div id="contenedorC">
+    <div id="carga">
+    </div>  
+  </div>
+
+  <script>
+    window.onload = function(){
+      var contenedor = document.getElementById('contenedorC');
+      contenedor.style.visibility = 'hidden';
+      contenedor.style.opacity = '0';
+    }
+  </script>
 
     <div class="overlay"></div>
 
