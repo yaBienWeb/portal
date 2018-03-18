@@ -12,7 +12,9 @@ h6 {
   font-weight: 700;
 }
 
-
+p, h4 {
+  text-align: justify;
+}
 header.masthead {
   position: relative;
   background-color: #343a40;
@@ -54,7 +56,7 @@ header.masthead h1 {
 }
 
 .showcase .showcase-img {
-  min-height: 30rem;
+  min-height: 15rem;
   background-size: cover;
 }
 
@@ -83,17 +85,50 @@ header.masthead h1 {
 .features-icons .features-icons-item {
   max-width: 20rem;
 }
+@media (max-width: 768px) {
+  .features-icons {
+  padding-top: 0rem;
+  padding-bottom:0rem;
+}
+  .features-icons .col-lg-4{
+     display: inline-block;
+     margin: 8%;
+    max-width: 15%;
+  }
+  .features-icons .features-icons-item {
+    padding-top: 0rem;  
+    padding-bottom: 0rem;}
+
+.features-icons .features-icons-item h3{
+ font-size: 12px;
+}
+.features-icons .features-icons-item p{
+
+  line-height: 0.8;
+ font-size: 8px;
+}
+.features-icons .features-icons-item .features-icons-icon i {
+font-size: 1rem;
+}
+
+.features-icons .features-icons-item:hover .features-icons-icon i {
+  font-size: 15px;
+}
+
+
+
+}
 
 .features-icons .features-icons-item .features-icons-icon {
   height: 7rem;
 }
 
 .features-icons .features-icons-item .features-icons-icon i {
-  font-size: 4.5rem;
+  font-size: 3rem;
 }
 
 .features-icons .features-icons-item:hover .features-icons-icon i {
-  font-size: 5rem;
+  font-size: 3.5rem;
 }
 
 .testimonials {
